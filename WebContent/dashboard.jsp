@@ -12,6 +12,7 @@
 <head>
     <title>Smart Water Monitoring - Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
+<script src="js/autoUpdate.js"></script>
 
     <script>
         // Auto update every 5 seconds
