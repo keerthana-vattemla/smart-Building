@@ -1,0 +1,26 @@
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UsageServlet</servlet-name>
+    <servlet-class>UsageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UsageServlet</servlet-name>
+    <url-pattern>/usage</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>BillingServlet</servlet-name>
+    <servlet-class>BillingServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BillingServlet</servlet-name>
+    <url-pattern>/billing</url-pattern>
+</servlet-mapping>
